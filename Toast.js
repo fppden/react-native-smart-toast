@@ -54,7 +54,7 @@ class Toast extends Component {
     }
 
     static propTypes = {
-        style: ViewPropTypes.propTypes.style,
+        style: ViewPropTypes.style,
         textStyle: Text.propTypes.style,
         spacing: PropTypes.number,
         position: PropTypes.oneOf([gravity.top, gravity.bottom, gravity.center,]),
